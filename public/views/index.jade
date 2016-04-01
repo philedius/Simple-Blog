@@ -1,0 +1,69 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    link(href='https://fonts.googleapis.com/css?family=PT+Serif', rel='stylesheet', type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Roboto:900', rel='stylesheet', type='text/css')
+    link(rel='stylesheet', href='/css/bootstrap.min.css')
+    link(href='/css/style.css', rel='stylesheet')
+  body
+    nav.navbar.navbar-dark(style="background-image: url('/css/" + image + "');")
+      // <a class="navbar-brand" href="#">Lotus Flower</a>
+      ul.nav.navbar-nav
+        li.nav-item.active
+          a.nav-link(href='/')
+            | Home
+            span.sr-only (current)
+        li.nav-item
+          a.nav-link(href='/article') Article
+        li.nav-item
+          a.nav-link(href='#') Contact
+      .jumbotron
+        .container
+          h1 Mr Magpie
+          p Sailing to the moon
+    .container.index
+      h1
+        | Articles
+      p
+        | Louisiana woman and the harakiri of skies and trees.
+      ul.article-list
+        li.article-list-item(style="background-image: url('css/04.jpg');")
+          h2
+            a(href='/article')|A Wolf At The Door
+          p
+            |An article about scatterbrains and myxomatosis.
+        li.article-list-item(style="background-image: url('css/01.jpg');")
+          h2
+            a(href='/article')|Basic Complexity
+          p
+            |Recent discoveries in exclamationology deem "Whoa!" most successful.
+        li.article-list-item(style="background-image: url('css/03.jpg');")
+          h2
+            a(href='/article')|Prefix of prefixes
+          p
+            |Predominantily sequestered beings aspire delinquintic reputations.
+        li.article-list-item(style="background-image: url('css/07.jpg');")
+          h2
+            a(href='/article')|Your Love (feat. Max Marshall) [Manila Killa Remix]
+          p
+            |Lessened reflexes of said sequesent unpulperated saximicile predumpference require perferated afixilimitation of proposed gramifications of the <em>prefoix de joure</em> that accounts for all of exremilimitivities.
+        li.article-list-item(style="background-image: url('css/08.jpg');")
+          h2
+            a(href='/article')|This elephant baby shows interest in anti-vaccination parents
+          p
+            |You wont believe what happened next! Doctors hate it!
+        li.article-list-item(style="background-image: url('css/05.jpg');")
+          h2
+            a(href='/article')|A Wolf At The Door
+          p
+            |An article about scatterbrains and myxomatosis.
+        li.article-list-item(style="background-image: url('css/06.jpg');")
+          h2
+            a(href='/article')|Basic Complexity
+          p
+            |Recent discoveries in exclamationology deem "Whoa!" most successful.      
+    script(src='/js/jquery.min.js')
+    script(src='/js/bootstrap.min.js')
