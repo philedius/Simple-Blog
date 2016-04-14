@@ -8,22 +8,8 @@ html(lang='en')
     link(href='https://fonts.googleapis.com/css?family=Roboto:900', rel='stylesheet', type='text/css')
     link(rel='stylesheet', href='/css/bootstrap.min.css')
     link(href='/css/style.css', rel='stylesheet')
+    include head.jade
   body
-    nav.navbar.navbar-dark(style="background-image: url('/css/" + image + "');")
-      // <a class="navbar-brand" href="#">Lotus Flower</a>
-      ul.nav.navbar-nav
-        li.nav-item.active
-          a.nav-link(href='/')
-            | Home
-            span.sr-only (current)
-        li.nav-item
-          a.nav-link(href='/article') Article
-        li.nav-item
-          a.nav-link(href='#') Contact
-      .jumbotron
-        .container
-          h1 Mr Magpie
-          p Sailing to the moon
     .container.index
       h1
         | Articles
@@ -64,6 +50,6 @@ html(lang='en')
           h2
             a(href='/article')|Basic Complexity
           p
-            |Recent discoveries in exclamationology deem "Whoa!" most successful.      
+            |Recent discoveries in exclamationology deem "Whoa!" most successful.
     script(src='/js/jquery.min.js')
     script(src='/js/bootstrap.min.js')

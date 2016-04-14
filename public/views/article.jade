@@ -8,26 +8,12 @@ html(lang='en')
     link(href='https://fonts.googleapis.com/css?family=Roboto:900', rel='stylesheet', type='text/css')
     link(rel='stylesheet', href='/css/bootstrap.min.css')
     link(href='/css/style.css', rel='stylesheet')
+    include head.jade
   body
-    nav.navbar.navbar-dark(style="background-image: url('/css/" + image + "');")
-      // <a class="navbar-brand" href="#">Lotus Flower</a>
-      ul.nav.navbar-nav
-        li.nav-item
-          a.nav-link(href='/') Home
-        li.nav-item.active
-          a.nav-link(href='/article')
-            | Article
-            span.sr-only (current)
-        li.nav-item
-          a.nav-link(href='#') Contact
-      .jumbotron
-        .container
-          h1 The King of Limbs
-          p Dying 'til those eyes bloom little by little
     .container.blogpost
       article
         h2
-          | Posted July 10th 1992 by 
+          | Posted July 16th 1992 by 
           a(href='#') Fannar
         p
           | As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore . . . and this is exploration at its greatest.

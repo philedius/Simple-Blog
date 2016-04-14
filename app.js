@@ -12,11 +12,11 @@ app.use('/js', express.static(__dirname + '/node_modules/bootstrap/dist/js'));
 app.use('/js', express.static(__dirname + '/node_modules/jquery/dist'));
 
 app.get('/', function (req, res) {
-	res.render('index', {image: '02.jpg'})
+	res.render('index', {image: '03.jpg', title: 'Infinity Milk', description: 'The Greater Symbol & The Hash!'});
 });
 
 app.get('/article', function (req, res) {
-	res.render('article', {image: '06.jpg'})
+	res.render('article', {image: '04.jpg', title: 'King Of Limbs', description: 'Song One Puzzle Puzzles Puzzled Puzzle Puzzlers.'});
 });
 
 app.listen(port, function()	{

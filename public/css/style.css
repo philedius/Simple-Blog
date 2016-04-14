@@ -26,7 +26,7 @@ p {
 	height: 100%;
 	background-size: cover;
 	overflow: hidden;
-	text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.35);
+	text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.55);
 	text-align: center;
 }
 
@@ -82,11 +82,12 @@ article h2 a {
 .container.index {
 	padding-left: 0;
 	padding-right: 0;
+	padding-top: 5em;
 }
 
 .article-list-item {
 	color: white;
-	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.65);
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.875);
 	padding: 2em;
 	background-image: none;
 	background-position: center;
